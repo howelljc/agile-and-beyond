@@ -1,0 +1,97 @@
+
+  503  brew search git
+  504  git --version
+  505  mkdir git-demo
+  506  cd
+  507  cd git-demo
+  508  touch demo.txt
+  509  git init
+  510  git status
+  511  git add demo.txt
+  512  git status
+  513  git diff --staged
+  514  git diff --staged
+  515  git commit -m
+  516  git commit -m "this is a commit"
+  517  git status
+  518  atom .
+  519  git status
+  520  git diff
+  521  git status
+  522  git add
+  523  git add demo.txt
+  524  git status
+  525  git commit -m 'this is the 2nd commit'
+  526  git status
+  527  git status
+  528  git diff
+  529  git add -p
+  530  git status
+  531  git reset HEAD demo.txt
+  532  git status
+  533  git diff
+  534  git add -p
+  535  git status
+  536  git diff
+  537  git commit -m 'first line'
+  538  git status
+  539  git diff
+  540  git add demo.txt
+  541  git status
+  542  git diff
+  543  git status
+  544  git commit -m 'all lines committed'
+  545  git status
+  546  git checkout -b newbranch
+  547  git checkout master
+  548  git checkout newbranch
+  549  git status
+  550  git log
+  551  git checkout commit a06b9bc25ade10e1e62274b93ab38f85bee71bea
+  552  git checkout fd08ba77bf6249cd3041a7fbb0214a6e0fe96d7b
+  553  git checkout master
+  554  git status
+  555  git log
+  556  git status
+  557  git diff
+  558  git checkout --demo.txt
+  559  git checkout -- demo.txt
+  560  git status
+  561  git checkout newbranch
+  562  git branch -D newbranch
+  563  git checkout master
+  564  git branch -D newbranch
+  565  git log
+  566  ls ~/.ssh/
+  567  cat ~/.ssh/id_rsa.pub
+  568  pbcopy < ~/.ssh/id_rsa.pub
+  569  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSPcvAbWKjwnoS4QkQlPVNasqbiG+xKyZJsWn7a1WDZlChTB8BmfzivEWkE3HFOvLoKTCgu/SYCQ0p3bb/yrIzWAmXDK0nNAo2gdbTqSIKtGnknHg6VcZ2i7HXVKrv1rCjjgxGt1T+2WiDG0rEI5icf7aOAVv4vKgiaeEmfU99BkL1i0eNMFdO2FS2CeqqUFO2L0SY8A7y6qJTLTcNMVMSAEvc965IufjSxp2kxRtOb/CN0N0nFH5kK2w4pBcMjytCWxJIzn6OaK2JUfj5okrE4YQDFxa1PqFfJVjGipHNr8Bv/efg/iumrXZX/s+XH8h45q/yZhuu3hLksG2HmcAz+qHUe2Rd3aQxMmx0nxnlrctsfzD9iluyGB7qkmAq0HMxL0c8UUb4Yr3qztD4xzBHKcNvbD23J8r77j892mn1XTfiIvnT3dZFeAxKN+Op3FhA1u4bPyuriAyvEteZwwiLKd8BiX+/8HQfGQsCA0WYaX8YCT/awkQevjNtbd97qDXx5h7c0sOkF+mx/T3jDhA9GfYr1lDjD7qglwotYJfue0Oupu9SfKGtEtywBwGoXNixfw/nEQ6JDBxrHuLd8d3Cf2SuvfYYMtC1l6AzZ2iiHFcSxGZXPBWwfxnv9R524DjcriukBMdHthCrSVh+7yFXfjk8bWujFkOJnum4YeGPgQ== kimurphy@thoughtworks.com
+  570  clear
+  571  ls
+  572  git status
+  573  git remote add origin https://github.com/howelljc/agile-and-beyond.git
+  574  git push origin master
+  575  git pull origin master
+  576  git pull origin master
+  577  git remote -v
+  578  git pull --rebase
+  579  git pull --rebase origin master
+  580  git pull origin master
+  581  git push origin master
+  582  git log
+  583  git status
+  584  git status
+  585  git add demo.txt
+  586  git status
+  587  git reset demo.txt
+  588  git status
+  589  git reset --hard
+  590  git status
+  591  git diff
+  592  git status
+  593  git reser --hard
+  594  git reset --hard
+  595  bash -histoy
+  596  bash -history
+  597  history
+  598  history > git-commands-you-executed.txt
