@@ -2,3 +2,4 @@ opening line
 this is another commit message
 and another
 and yet another
+closing line
